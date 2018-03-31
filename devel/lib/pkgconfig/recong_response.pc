@@ -1,0 +1,8 @@
+prefix=/home/zjh/catkin_ws/devel
+
+Name: recong_response
+Description: Description of recong_response
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zjh/catkin_ws/devel/lib 
+Requires: 

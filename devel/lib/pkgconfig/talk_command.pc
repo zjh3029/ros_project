@@ -1,0 +1,8 @@
+prefix=/home/zjh/catkin_ws/devel
+
+Name: talk_command
+Description: Description of talk_command
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zjh/catkin_ws/devel/lib 
+Requires: 

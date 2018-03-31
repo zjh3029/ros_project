@@ -1,0 +1,8 @@
+prefix=/home/zjh/catkin_ws/install
+
+Name: navagation
+Description: Description of navagation
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zjh/catkin_ws/install/lib 
+Requires: 

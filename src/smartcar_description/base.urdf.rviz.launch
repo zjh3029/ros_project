@@ -1,0 +1,10 @@
+<launch>  
+    <arg name="model" />  
+    <arg name="gui" default="false" />  
+    <param name="robot_description" textfile="$(find smartcar_description)/urdf/smartcar.urdf" />  
+    <param name="use_gui" value="$(arg gui)"/>  
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" ></node>  
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />  
+    <!--建图或者或者导航暂时用不到打开机器人模型，在配置保存好,launch调用就行了-->
+    <!--node name="rviz" pkg="rviz" type="rviz" args="-d $(find urdf_tutorial)/urdf.rviz" /-->  
+</launch>  

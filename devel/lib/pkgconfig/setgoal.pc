@@ -1,0 +1,8 @@
+prefix=/home/zjh/catkin_ws/devel
+
+Name: setgoal
+Description: Description of setgoal
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zjh/catkin_ws/devel/lib 
+Requires: 

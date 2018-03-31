@@ -1,0 +1,8 @@
+prefix=/home/zjh/catkin_ws/devel
+
+Name: tulingtest
+Description: Description of tulingtest
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zjh/catkin_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/zjh/catkin_ws/install
+
+Name: robot_tts
+Description: Description of robot_tts
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zjh/catkin_ws/install/lib 
+Requires: 

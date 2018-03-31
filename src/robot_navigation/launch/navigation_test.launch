@@ -1,0 +1,10 @@
+<launch>
+	<include file="$(find robot_navigation)/launch/fake_move_base_blank_map.launch"/>
+	<include file="$(find robot_navigation)/launch/view_nav.launch"/>
+	<include file="$(find smartcar_description)/base.urdf.rviz.launch"/>
+	<include file="$(find amcl)/examples/amcl_diff.launch"/>
+
+	<node pkg="portread" type="port" name="port" output="screen"/>
+	<node pkg="tf" type="static_transform_publisher" name="base_to_laser" args="0 0 0.05 0 0 	0 base_link laser 100"/>
+	<node pkg="urg_node" type="urg_node" name="urg_node" output="screen"/>
+</launch>

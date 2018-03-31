@@ -1,0 +1,2 @@
+amcl_test:facepp:get_act:listener:navagation:person_detect:portread:recong_response:robot_navigation:robot_tts:rvizall:talk_command:teleop_twist_keyboard:testport1:tulingtest
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/zjh/catkin_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/zjh/catkin_ws/install_isolated

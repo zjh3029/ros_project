@@ -1,0 +1,8 @@
+prefix=/home/zjh/catkin_ws/devel
+
+Name: amcl_test
+Description: Description of amcl_test
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zjh/catkin_ws/devel/lib 
+Requires: 

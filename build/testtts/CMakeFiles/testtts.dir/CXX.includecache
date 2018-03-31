@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zjh/catkin_ws/src/testtts/include/msp_cmn.h
+msp_types.h
+/home/zjh/catkin_ws/src/testtts/include/msp_types.h
+
+/home/zjh/catkin_ws/src/testtts/include/msp_errors.h
+
+/home/zjh/catkin_ws/src/testtts/include/msp_types.h
+
+/home/zjh/catkin_ws/src/testtts/include/qtts.h
+msp_types.h
+/home/zjh/catkin_ws/src/testtts/include/msp_types.h
+
+/home/zjh/catkin_ws/src/testtts/src/testtts.cpp
+alsa/asoundlib.h
+-
+qtts.h
+/home/zjh/catkin_ws/src/testtts/src/qtts.h
+msp_cmn.h
+/home/zjh/catkin_ws/src/testtts/src/msp_cmn.h
+msp_errors.h
+/home/zjh/catkin_ws/src/testtts/src/msp_errors.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+

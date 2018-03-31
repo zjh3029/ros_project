@@ -1,0 +1,8 @@
+prefix=/home/zjh/catkin_ws/install
+
+Name: portread
+Description: Description of portread
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zjh/catkin_ws/install/lib 
+Requires: 
